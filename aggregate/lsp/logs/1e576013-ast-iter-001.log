@@ -1,0 +1,7 @@
+[2026-10-11T02:23:40Z] === AST ITERATION 1 START | repo=pytest-dev/pytest-subtests sha=1e576013 ===
+[2026-10-11T02:23:40Z] [iter=1] PHASE START: ast repo=pytest-dev/pytest-subtests sha=1e576013
+[2026-10-11T02:23:40Z] [iter=1] Building AST aggregate chunks
+[2026-10-11T02:23:43Z] [iter=1] AST chunks built count=1 triples=46547
+[2026-10-11T02:23:43Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/1e5760131dd7cc0376b86f4499aef15d51e28ea6/.complete
+[2026-10-11T02:23:43Z] [iter=1] PHASE END: ast elapsed_s=3 elapsed_min=0.0
+[2026-10-11T02:23:43Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
