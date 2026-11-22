@@ -36,15 +36,23 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── 1e5760131dd7cc0376b86f4499aef15d51e28ea6
+│   │   ├── 1e5760131dd7cc0376b86f4499aef15d51e28ea6
+│   │   │   └── chunk-001.nq.gz
+│   │   └── ff19523c499fcc0a04c999b6614dbfdc3e684629
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── ff19523c499fcc0a04c999b6614dbfdc3e684629.nq.gz
 │   └── repolex
-│       └── 1e5760131dd7cc0376b86f4499aef15d51e28ea6
+│       ├── 1e5760131dd7cc0376b86f4499aef15d51e28ea6
+│       │   └── chunk-001.nq.gz
+│       └── ff19523c499fcc0a04c999b6614dbfdc3e684629
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 1566e3300d99f7f48c92dbb10fdd1b27856e25d0.nq.gz
+│   ├── 27cfad9efaf8ff6ca0d5dea19a1f1fcb503a900c.nq.gz
 │   ├── 2ddb0d127530d619cd2a83d58733648880928c30.nq.gz
 │   ├── 2f48d8643533ab844b366de81f3b28c8cee10bde.nq.gz
+│   ├── 378aa2d0372b6ff109fd9ea7613683180df6a49a.nq.gz
 │   ├── 5efbe503d5fb19de995581932dcb9faa1098c591.nq.gz
 │   ├── 627ea1b43ba8695160b2b2787c7c31c4be4dd3db.nq.gz
 │   ├── 694d7d58d440c236ea8ddcfece9eb605427f7be9.nq.gz
@@ -54,18 +62,23 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 8946903254e6544bc31a429359e31b9e819e1bfe.nq.gz
 │   ├── 91ec1d67cfae4201ed92a1777ebb5924b2ef3cc2.nq.gz
 │   ├── 956939fbb3ffd4042db6e3e03bcef0152b971e1c.nq.gz
+│   ├── a1ee6133cde20e28fa09d1f6df2c93fa6c130524.nq.gz
 │   ├── b023de03b59fb0e389a6b0e6b8639eded7167e17.nq.gz
 │   ├── bc6a8496d1fe5cd3f3fc0408fe0cef2e286cc42c.nq.gz
 │   ├── d0ffc9501dcc4748985c6773d3092866f6bf6af7.nq.gz
 │   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
 │   ├── ed3ef03883d47980acb830f2d877096987f57c61.nq.gz
-│   └── ef05f22485a5159538569334edc8df77b49185a5.nq.gz
+│   ├── ef05f22485a5159538569334edc8df77b49185a5.nq.gz
+│   └── f197f6f814b991297cd73f74899ec43fc2ccf979.nq.gz
 ├── branch
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── ff19523c499fcc0a04c999b6614dbfdc3e684629.nq.gz
 ├── filetree
-│   └── 1e5760131dd7cc0376b86f4499aef15d51e28ea6.nq.gz
+│   ├── 1e5760131dd7cc0376b86f4499aef15d51e28ea6.nq.gz
+│   └── ff19523c499fcc0a04c999b6614dbfdc3e684629.nq.gz
 ├── issue
 │   └── issue.nq.gz
 ├── pr
@@ -73,7 +86,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 26 files
+17 directories, 35 files
 ```
 
 | Directory | What it contains |
@@ -94,4 +107,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [pytest-dev/pytest-subtests](https://github.com/pytest-dev/pytest-subtests)
 
 ---
-*Parsed on 2026-10-11 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
